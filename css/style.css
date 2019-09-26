@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+nav {
+	height: 5vh;
+	width: 80%;
+	background-color: white;
+}
+.name {
+	width: 20%;
+	float: left;
+	position: absolute;
+	left: 10%;
+	background-color: teal;
+	text-align: center;
+	color: white;
+}
+a {
+	float: right;
+	text-decoration: none;
+	margin: 5px;
+	color: #ccc;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+main {
+	height: 80vh;
+	width: 80%;
+	position: relative;
+	margin: 0 auto;
+	background-color: #ccc;
+	border-bottom: 5px solid teal;
+}
+.hero {
+	height: 75%;
+	width: 75%;
+	background-color: white;
+	position: absolute;
+	left: 12.5%;
+	top: 12.5%;
+	padding-left: 40px;
+}
+.about {
+	width: 15%;
+	color: teal;
+	margin: 10px;
+	font-size: 22px;
+}
+hr {
+	margin: 10px;
+}
+img {
+	float: left;
+	border-radius: 5px;
+	margin: 10px;
+	box-shadow: 4px 4px 4px gray;
+}
+p {
+	margin: 10px;
+	letter-spacing: 2px;
+	font-size: 13px;
+}
+footer {
+	height: 5vh;
+	width: 80%;
+	position: relative;
+	left: 10%;
+	background-color: #444;
+}
+form {
+	margin: 10px;
+}
+.btn {
+	border-radius: 5px;
+}
+footer {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 10px;
+	color: #bbb;
+}
+.port1 {
+	position: relative;
+}
+.text1 {
+	position: absolute;
+  	top: 20px;
+  	left: 27px;
+  	background-color: rgba(0,128,128,0.6);
+  	color: white;
+  	padding-left: 20px;
+  	padding-right: 20px;
+}
+.text2 {
+  	position: absolute;
+  	top: 80px;
+  	left: 300px;
+  	background-color: rgba(0,128,128,0.6);
+  	color: white;
+  	padding-left: 20px;
+  	padding-right: 20px;
+}
+.text3 {
+	position: absolute;
+  	top: 80px;
+  	left: 520px;
+  	background-color: rgba(0,128,128,0.6);
+  	color: white;
+  	padding-left: 20px;
+  	padding-right: 20px;
+}
+.submit-button {
+	position: absolute;
+	bottom: 20px;
+}
+.copy {
+	position: absolute;
+	top: 15px;
+}
+@media screen and (max-width: 768px) {
+	main {background-color: #fff
+
+	}
+}
